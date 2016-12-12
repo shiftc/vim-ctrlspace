@@ -4,7 +4,7 @@ let s:pluginFolder = fnamemodify(resolve(expand('<sfile>:p')), ':h:h:h')
 let s:configuration = {
 			\ "defaultSymbols": {
 				\ "unicode": {
-					\ "CS":     "⌗",
+					\ "CS":     "#",
 					\ "Sin":    "•",
 					\ "All":    "፨",
 					\ "Vis":    "★",
@@ -12,9 +12,9 @@ let s:configuration = {
 					\ "Tabs":   "▫",
 					\ "CTab":   "▪",
 					\ "NTM":    "⁺",
-					\ "WLoad":  "⬆",
-					\ "WSave":  "⬇",
-					\ "Zoom":   "⌕",
+					\ "WLoad":  "|*|",
+					\ "WSave":  "[*]",
+					\ "Zoom":   "*",
 					\ "SLeft":  "›",
 					\ "SRight": "‹",
 					\ "BM":     "♥",
